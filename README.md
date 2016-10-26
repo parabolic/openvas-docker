@@ -31,7 +31,7 @@ username: admin
 password: admin
 ```
 
-** all at once for copy paste**
+**all at once for copy paste**
 ```
 git clone git@github.com:parabolic/openvas-docker.git
 cd openvas-docker
