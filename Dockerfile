@@ -20,8 +20,8 @@ RUN \
   python-setuptools \
   python-software-properties \
   software-properties-common
-# Add the ppa and install openvas
 
+# Add the ppa and install openvas
 RUN add-apt-repository ppa:mrazavi/openvas -y
 RUN apt-get update
 RUN apt-get -y install openvas
